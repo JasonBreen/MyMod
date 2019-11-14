@@ -1,0 +1,41 @@
+﻿Build started 11/13/2019 10:05:47 PM.
+     1>Project "C:\Users\drfre\Documents\GitHub\MyMod\src\utils\vprojtomake\vprojtomake-2005.vcxproj" on node 8 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\common /I..\..\public /I..\..\public\tier1 /I..\..\public\tier0 /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D WIN32 /D NDEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0710 /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Release/" /Fd".\Release/vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\tier1\interface.cpp ..\..\tier1\KeyValues.cpp ..\..\tier1\utlbuffer.cpp ..\..\tier1\utlsymbol.cpp makefilecreator.cpp StdAfx.cpp vcprojconvert.cpp vprojtomake.cpp
+         interface.cpp
+         KeyValues.cpp
+         utlbuffer.cpp
+         utlsymbol.cpp
+         makefilecreator.cpp
+         StdAfx.cpp
+         vcprojconvert.cpp
+         vprojtomake.cpp
+         Generating Code...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1193,5): warning MSB8012: TargetPath(C:\Users\drfre\Documents\GitHub\MyMod\src\utils\vprojtomake\.\Release\vprojtomake.exe) does not match the Linker's OutputFile property value (C:\Users\drfre\Documents\GitHub\MyMod\src\utils\vprojtomake\Release\vcpm.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1195,5): warning MSB8012: TargetName(vprojtomake) does not match the Linker's OutputFile property value (vcpm). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Release/vcpm.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\..\lib\public odbc32.lib odbccp32.lib comsupp.lib msxml2.lib comsuppw.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:LIBCMTD /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\Release/vprojtomake.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Release\vprojtomake.lib" /MACHINE:X86 /SAFESEH ..\..\lib\public\tier0.lib
+         .\Release/interface.obj
+         .\Release/KeyValues.obj
+         .\Release/utlbuffer.obj
+         .\Release/utlsymbol.obj
+         .\Release/makefilecreator.obj
+         .\Release/StdAfx.obj
+         .\Release/vcprojconvert.obj
+         .\Release/vprojtomake.obj
+         ..\..\lib\public\tier1.lib
+         ..\..\lib\public\tier2.lib
+         ..\..\lib\public\vstdlib.lib
+         C:\Users\drfre\Documents\GitHub\MyMod\src\lib\public\tier1.lib
+            Creating library .\Release\vprojtomake.lib and object .\Release\vprojtomake.exp
+         vprojtomake-2005.vcxproj -> C:\Users\drfre\Documents\GitHub\MyMod\src\utils\vprojtomake\.\Release\vprojtomake.exe
+       CustomBuildStep:
+         if exist  ..\..\..\bin\vcpm.exe attrib -r ..\..\..\bin\vcpm.exe
+         if exist "C:\Users\drfre\Documents\GitHub\MyMod\src\utils\vprojtomake\.\Release\vprojtomake.exe" copy "C:\Users\drfre\Documents\GitHub\MyMod\src\utils\vprojtomake\.\Release\vprojtomake.exe" ..\..\..\bin\vcpm.exe
+         
+         :VCEnd
+     1>Done Building Project "C:\Users\drfre\Documents\GitHub\MyMod\src\utils\vprojtomake\vprojtomake-2005.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:18.57

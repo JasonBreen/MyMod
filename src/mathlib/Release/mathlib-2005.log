@@ -1,0 +1,54 @@
+﻿Build started 11/13/2019 10:04:45 PM.
+     1>Project "C:\Users\drfre\Documents\GitHub\MyMod\src\mathlib\mathlib-2005.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\common /I..\public /I..\public\tier0 /I..\public\tier1 /I..\public\mathlib /Z7 /nologo /W4 /WX- /O2 /Ob2 /Oi /Ot /Oy- /D WIN32 /D _WIN32 /D NDEBUG /D _LIB /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _MBCS /GF /Gm- /MT /GS- /Gy /fp:fast /Zc:wchar_t /Zc:forScope /GR /openmp- /Fo".\Release\\" /Fd".\Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt 3dnow.cpp anorms.cpp bumpvects.cpp color_conversion.cpp halton.cpp IceKey.cpp imagequant.cpp lightdesc.cpp mathlib_base.cpp polyhedron.cpp powsse.cpp quantize.cpp randsse.cpp simdvectormatrix.cpp sparse_convolution_noise.cpp sse.cpp sseconst.cpp ssenoise.cpp vector.cpp vmatrix.cpp
+         3dnow.cpp
+         anorms.cpp
+         bumpvects.cpp
+         color_conversion.cpp
+         halton.cpp
+         IceKey.cpp
+         imagequant.cpp
+         lightdesc.cpp
+         mathlib_base.cpp
+         polyhedron.cpp
+         powsse.cpp
+         quantize.cpp
+         randsse.cpp
+         simdvectormatrix.cpp
+     1>C:\Users\drfre\Documents\GitHub\MyMod\src\public\mathlib/simdvectormatrix.h(75): warning C4316: 'FourVectors' : object allocated on the heap may not be aligned 16
+         sparse_convolution_noise.cpp
+         sse.cpp
+         sseconst.cpp
+         ssenoise.cpp
+         vector.cpp
+         vmatrix.cpp
+         Generating Code...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1361,5): warning MSB8012: TargetPath(C:\Users\drfre\Documents\GitHub\MyMod\src\mathlib\.\Release\mathlib.lib) does not match the Library's OutputFile property value (C:\Users\drfre\Documents\GitHub\MyMod\src\lib\public\mathlib.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"..\lib\public\mathlib.lib" /NOLOGO .\Release\3dnow.obj
+         .\Release\anorms.obj
+         .\Release\bumpvects.obj
+         .\Release\color_conversion.obj
+         .\Release\halton.obj
+         .\Release\IceKey.obj
+         .\Release\imagequant.obj
+         .\Release\lightdesc.obj
+         .\Release\mathlib_base.obj
+         .\Release\polyhedron.obj
+         .\Release\powsse.obj
+         .\Release\quantize.obj
+         .\Release\randsse.obj
+         .\Release\simdvectormatrix.obj
+         .\Release\sparse_convolution_noise.obj
+         .\Release\sse.obj
+         .\Release\sseconst.obj
+         .\Release\ssenoise.obj
+         .\Release\vector.obj
+         .\Release\vmatrix.obj
+         mathlib-2005.vcxproj -> C:\Users\drfre\Documents\GitHub\MyMod\src\mathlib\.\Release\mathlib.lib
+     1>Done Building Project "C:\Users\drfre\Documents\GitHub\MyMod\src\mathlib\mathlib-2005.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:25.31

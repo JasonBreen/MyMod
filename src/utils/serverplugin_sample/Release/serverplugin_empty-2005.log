@@ -1,0 +1,15 @@
+﻿Build started 11/13/2019 10:05:21 PM.
+     1>Project "C:\Users\drfre\Documents\GitHub\MyMod\src\utils\serverplugin_sample\serverplugin_empty-2005.vcxproj" on node 4 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\common /I..\..\public /I..\..\public\tier0 /I..\..\public\tier1 /I..\..\game\server /I..\..\game\shared /Zi /nologo /W4 /WX- /O2 /Ob2 /Oi /Ot /Oy- /D WIN32 /D _WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D serverplugin_emptyONLY /D _MBCS /D _WINDLL /D _MBCS /GF /Gm- /MT /GS- /Gy /fp:fast /Zc:wchar_t /Zc:forScope /GR /Fo".\Release\\" /Fd".\Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\public\tier0\memoverride.cpp serverplugin_bot.cpp serverplugin_empty.cpp
+         memoverride.cpp
+     1>..\..\public\tier0\memoverride.cpp(1182): error C2146: syntax error : missing ';' before identifier '_cacheid'
+     1>..\..\public\tier0\memoverride.cpp(1182): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+         serverplugin_bot.cpp
+         serverplugin_empty.cpp
+         Generating Code...
+     1>Done Building Project "C:\Users\drfre\Documents\GitHub\MyMod\src\utils\serverplugin_sample\serverplugin_empty-2005.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:05.75

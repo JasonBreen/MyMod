@@ -1,0 +1,71 @@
+﻿Build started 11/13/2019 10:05:45 PM.
+     1>Project "C:\Users\drfre\Documents\GitHub\MyMod\src\utils\vvis\vvis_dll-2005.vcxproj" on node 7 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\common /I..\..\public /I..\..\public\tier0 /I..\..\public\tier1 /I..\common /I..\vmpi /I..\vmpi\mysql\include /Zi /nologo /W4 /WX- /O2 /Ob2 /Oi /Ot /Oy- /D WIN32 /D _WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D MPI /D PROTECTED_THINGS_DISABLE /D _WINDLL /D _MBCS /GF /Gm- /MT /GS- /Gy /fp:fast /Zc:wchar_t /Zc:forScope /GR /Fo".\Release\\" /Fd".\Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\public\collisionutils.cpp ..\..\public\filesystem_helpers.cpp ..\..\public\loadcmdline.cpp ..\..\public\lumpfiles.cpp ..\..\public\scratchpad3d.cpp ..\..\public\zip_utils.cpp ..\common\bsplib.cpp ..\common\cmdlib.cpp ..\common\mpi_stats.cpp ..\common\MySqlDatabase.cpp ..\common\pacifier.cpp ..\common\scratchpad_helpers.cpp ..\common\scriplib.cpp ..\common\threads.cpp ..\common\tools_minidump.cpp ..\common\vmpi_tools_shared.cpp flow.cpp mpivis.cpp vvis.cpp WaterDist.cpp
+         collisionutils.cpp
+         filesystem_helpers.cpp
+         loadcmdline.cpp
+         lumpfiles.cpp
+         scratchpad3d.cpp
+         zip_utils.cpp
+         bsplib.cpp
+         cmdlib.cpp
+         mpi_stats.cpp
+         MySqlDatabase.cpp
+         pacifier.cpp
+         scratchpad_helpers.cpp
+         scriplib.cpp
+         threads.cpp
+         tools_minidump.cpp
+         vmpi_tools_shared.cpp
+         flow.cpp
+         mpivis.cpp
+         vvis.cpp
+         WaterDist.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Release\vvis_dll.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\..\lib\common /LIBPATH:..\..\lib\public odbc32.lib odbccp32.lib ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:libc /NODEFAULTLIB:libcd /NODEFAULTLIB:libcmtd /MANIFEST:NO /DEBUG /PDB:".\Release\Vvis_dll.pdb" /MAP:".\Release\Vvis_dll.map" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Release\Vvis_dll.lib" /MACHINE:X86 /SAFESEH /DLL .\Release\collisionutils.obj
+         .\Release\filesystem_helpers.obj
+         .\Release\loadcmdline.obj
+         .\Release\lumpfiles.obj
+         .\Release\scratchpad3d.obj
+         .\Release\zip_utils.obj
+         .\Release\bsplib.obj
+         .\Release\cmdlib.obj
+         .\Release\mpi_stats.obj
+         .\Release\MySqlDatabase.obj
+         .\Release\pacifier.obj
+         .\Release\scratchpad_helpers.obj
+         .\Release\scriplib.obj
+         .\Release\threads.obj
+         .\Release\tools_minidump.obj
+         .\Release\vmpi_tools_shared.obj
+         .\Release\flow.obj
+         .\Release\mpivis.obj
+         .\Release\vvis.obj
+         .\Release\WaterDist.obj
+         ..\..\lib\public\mathlib.lib
+         ..\..\lib\public\tier0.lib
+         ..\..\lib\public\tier1.lib
+         ..\..\lib\public\tier2.lib
+         ..\..\lib\public\vmpi.lib
+         ..\..\lib\public\vstdlib.lib
+         C:\Users\drfre\Documents\GitHub\MyMod\src\lib\public\mathlib.lib
+         C:\Users\drfre\Documents\GitHub\MyMod\src\lib\public\tier1.lib
+     1>vmpi.lib(deflate.obj) : error LNK2026: module unsafe for SAFESEH image.
+     1>vmpi.lib(inflate.obj) : error LNK2026: module unsafe for SAFESEH image.
+     1>vmpi.lib(zutil.obj) : error LNK2026: module unsafe for SAFESEH image.
+     1>vmpi.lib(adler32.obj) : error LNK2026: module unsafe for SAFESEH image.
+     1>vmpi.lib(trees.obj) : error LNK2026: module unsafe for SAFESEH image.
+     1>vmpi.lib(infblock.obj) : error LNK2026: module unsafe for SAFESEH image.
+     1>vmpi.lib(infcodes.obj) : error LNK2026: module unsafe for SAFESEH image.
+     1>vmpi.lib(inftrees.obj) : error LNK2026: module unsafe for SAFESEH image.
+     1>vmpi.lib(infutil.obj) : error LNK2026: module unsafe for SAFESEH image.
+     1>vmpi.lib(inffast.obj) : error LNK2026: module unsafe for SAFESEH image.
+            Creating library .\Release\Vvis_dll.lib and object .\Release\Vvis_dll.exp
+     1>.\Release\vvis_dll.dll : fatal error LNK1281: Unable to generate SAFESEH image.
+     1>Done Building Project "C:\Users\drfre\Documents\GitHub\MyMod\src\utils\vvis\vvis_dll-2005.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:35.02

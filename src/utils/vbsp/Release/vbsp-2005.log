@@ -1,0 +1,66 @@
+﻿Build started 11/13/2019 10:05:21 PM.
+     1>Project "C:\Users\drfre\Documents\GitHub\MyMod\src\utils\vbsp\vbsp-2005.vcxproj" on node 6 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\common /I..\..\public /I..\..\public\tier0 /I..\..\public\tier1 /I..\common /I..\vmpi /Zi /nologo /W4 /WX- /O2 /Ob2 /Oi /Ot /Oy- /D WIN32 /D _WIN32 /D NDEBUG /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D MACRO_MATHLIB /D PROTECTED_THINGS_DISABLE /D _MBCS /GF /Gm- /MT /GS- /Gy /fp:fast /Zc:wchar_t /Zc:forScope /GR /openmp- /Fo".\Release\\" /Fd".\Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\public\builddisp.cpp ..\..\public\chunkfile.cpp ..\..\public\collisionutils.cpp ..\..\public\disp_common.cpp ..\..\public\disp_powerinfo.cpp ..\..\public\filesystem_helpers.cpp ..\..\public\filesystem_init.cpp ..\..\public\loadcmdline.cpp ..\..\public\lumpfiles.cpp ..\..\public\scratchpad3d.cpp ..\..\public\tier0\memoverride.cpp ..\..\public\zip_utils.cpp ..\common\bsplib.cpp ..\common\cmdlib.cpp ..\common\filesystem_tools.cpp ..\common\map_shared.cpp ..\common\mstristrip.cpp ..\common\pacifier.cpp ..\common\physdll.cpp ..\common\polylib.cpp ..\common\scratchpad_helpers.cpp ..\common\scriplib.cpp ..\common\threads.cpp ..\common\tools_minidump.cpp ..\common\utilmatlib.cpp brushbsp.cpp csg.cpp cubemap.cpp detail.cpp detailobjects.cpp disp_ivp.cpp disp_vbsp.cpp faces.cpp glfile.cpp ivp.cpp leakfile.cpp map.cpp materialpatch.cpp materialsub.cpp nodraw.cpp normals.cpp overlay.cpp portals.cpp prtfile.cpp staticprop.cpp textures.cpp tree.cpp vbsp.cpp worldvertextransitionfixup.cpp writebsp.cpp
+         builddisp.cpp
+         chunkfile.cpp
+         collisionutils.cpp
+         disp_common.cpp
+         disp_powerinfo.cpp
+         filesystem_helpers.cpp
+         filesystem_init.cpp
+         loadcmdline.cpp
+         lumpfiles.cpp
+         scratchpad3d.cpp
+         memoverride.cpp
+     1>..\..\public\tier0\memoverride.cpp(1182): error C2146: syntax error : missing ';' before identifier '_cacheid'
+     1>..\..\public\tier0\memoverride.cpp(1182): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+         zip_utils.cpp
+         bsplib.cpp
+         cmdlib.cpp
+         filesystem_tools.cpp
+         map_shared.cpp
+         mstristrip.cpp
+         pacifier.cpp
+         physdll.cpp
+         polylib.cpp
+         Generating Code...
+         Compiling...
+         scratchpad_helpers.cpp
+         scriplib.cpp
+         threads.cpp
+         tools_minidump.cpp
+         utilmatlib.cpp
+         brushbsp.cpp
+         csg.cpp
+         cubemap.cpp
+         detail.cpp
+         detailobjects.cpp
+         disp_ivp.cpp
+         disp_vbsp.cpp
+         faces.cpp
+         glfile.cpp
+         ivp.cpp
+         leakfile.cpp
+         map.cpp
+         materialpatch.cpp
+         materialsub.cpp
+         nodraw.cpp
+         Generating Code...
+         Compiling...
+         normals.cpp
+         overlay.cpp
+         portals.cpp
+         prtfile.cpp
+         staticprop.cpp
+         textures.cpp
+         tree.cpp
+         vbsp.cpp
+         worldvertextransitionfixup.cpp
+         writebsp.cpp
+         Generating Code...
+     1>Done Building Project "C:\Users\drfre\Documents\GitHub\MyMod\src\utils\vbsp\vbsp-2005.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:01:26.36

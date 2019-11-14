@@ -1,0 +1,19 @@
+﻿Build started 11/13/2019 10:05:37 PM.
+     1>Project "C:\Users\drfre\Documents\GitHub\MyMod\src\utils\phonemeextractor\phonemeextractor-2005.vcxproj" on node 5 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\common /I..\..\public /I..\..\public\tier0 /I..\..\public\tier1 /I../common /I../hlfaceposer /I../sapi51/include /Zi /nologo /W4 /WX- /O2 /Ob2 /Oi /Ot /Oy- /D WIN32 /D _WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D PHONEMEEXTRACTOR_EXPORTS /D _WINDLL /D _MBCS /GF /Gm- /MT /GS- /Gy /fp:fast /Zc:wchar_t /Zc:forScope /GR /Fo".\Release\\" /Fd".\Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\public\phonemeconverter.cpp ..\..\public\sentence.cpp ..\..\public\tier0\memoverride.cpp extractor_utils.cpp phonemeextractor.cpp
+         phonemeconverter.cpp
+         sentence.cpp
+         memoverride.cpp
+     1>..\..\public\tier0\memoverride.cpp(1182): error C2146: syntax error : missing ';' before identifier '_cacheid'
+     1>..\..\public\tier0\memoverride.cpp(1182): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+         extractor_utils.cpp
+         phonemeextractor.cpp
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\sphelper.h(1319): warning C4996: 'GetVersionExA': was declared deprecated
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(433) : see declaration of 'GetVersionExA'
+         Generating Code...
+     1>Done Building Project "C:\Users\drfre\Documents\GitHub\MyMod\src\utils\phonemeextractor\phonemeextractor-2005.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:13.46

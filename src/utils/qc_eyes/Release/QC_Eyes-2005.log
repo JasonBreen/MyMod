@@ -1,0 +1,29 @@
+﻿Build started 11/13/2019 10:05:34 PM.
+     1>Project "C:\Users\drfre\Documents\GitHub\MyMod\src\utils\qc_eyes\QC_Eyes-2005.vcxproj" on node 4 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\common /I..\..\public /I..\..\public\tier0 /I..\..\public\tier1 /Zi /nologo /W4 /WX- /O2 /Ob2 /Oi /Ot /Oy- /D WIN32 /D _WIN32 /D NDEBUG /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _MBCS /GF /Gm- /EHsc /MT /GS- /Gy /fp:fast /Zc:wchar_t /Zc:forScope /GR /openmp- /Yc"stdafx.h" /Fp"Debug/QC_Eyes.pch" /Fo".\Release\\" /Fd".\Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt StdAfx.cpp
+         StdAfx.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\afx.h(38): warning C4996: 'MBCS_Support_Deprecated_In_MFC': MBCS support in MFC is deprecated and may be removed in a future version of MFC.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\afx.h(33) : see declaration of 'MBCS_Support_Deprecated_In_MFC'
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\common /I..\..\public /I..\..\public\tier0 /I..\..\public\tier1 /Zi /nologo /W4 /WX- /O2 /Ob2 /Oi /Ot /Oy- /D WIN32 /D _WIN32 /D NDEBUG /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _MBCS /GF /Gm- /EHsc /MT /GS- /Gy /fp:fast /Zc:wchar_t /Zc:forScope /GR /openmp- /Yu"stdafx.h" /Fp"Debug/QC_Eyes.pch" /Fo".\Release\\" /Fd".\Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt QC_Eyes.cpp QC_EyesDlg.cpp
+         QC_Eyes.cpp
+         QC_EyesDlg.cpp
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D NDEBUG /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /l"0x0409" /nologo /fo".\Release\QC_Eyes.res" QC_Eyes.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Release\QC_Eyes.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:libc /NODEFAULTLIB:libcd /NODEFAULTLIB:libcmtd /MANIFEST:NO /DEBUG /PDB:".\Release\QC_Eyes.pdb" /MAP:".\Release\QC_Eyes.map" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Release\QC_Eyes.lib" /MACHINE:X86 /SAFESEH .\Release\QC_Eyes.res
+         .\Release\QC_Eyes.obj
+         .\Release\QC_EyesDlg.obj
+         .\Release\StdAfx.obj
+         ..\..\lib\public\tier0.lib
+         ..\..\lib\public\tier1.lib
+         ..\..\lib\public\vstdlib.lib
+         C:\Users\drfre\Documents\GitHub\MyMod\src\lib\public\tier1.lib
+         QC_Eyes-2005.vcxproj -> C:\Users\drfre\Documents\GitHub\MyMod\src\utils\qc_eyes\.\Release\QC_Eyes.exe
+     1>Done Building Project "C:\Users\drfre\Documents\GitHub\MyMod\src\utils\qc_eyes\QC_Eyes-2005.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:02:13.35

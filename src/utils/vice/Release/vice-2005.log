@@ -1,0 +1,18 @@
+﻿Build started 11/13/2019 10:05:21 PM.
+     1>Project "C:\Users\drfre\Documents\GitHub\MyMod\src\utils\vice\vice-2005.vcxproj" on node 7 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\common /I..\..\public /I..\..\public\tier0 /I..\..\public\tier1 /I..\common /Zi /nologo /W4 /WX- /O2 /Ob2 /Oi /Ot /Oy- /D WIN32 /D _WIN32 /D NDEBUG /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _MBCS /GF /Gm- /MT /GS- /Gy /fp:fast /Zc:wchar_t /Zc:forScope /GR /openmp- /Fo".\Release\\" /Fd".\Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\public\filesystem_helpers.cpp ..\..\public\filesystem_init.cpp ..\..\public\tier0\memoverride.cpp ..\common\cmdlib.cpp ..\common\filesystem_tools.cpp vice.cpp
+         filesystem_helpers.cpp
+         filesystem_init.cpp
+         memoverride.cpp
+     1>..\..\public\tier0\memoverride.cpp(1182): error C2146: syntax error : missing ';' before identifier '_cacheid'
+     1>..\..\public\tier0\memoverride.cpp(1182): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+         cmdlib.cpp
+         filesystem_tools.cpp
+         vice.cpp
+         Generating Code...
+     1>Done Building Project "C:\Users\drfre\Documents\GitHub\MyMod\src\utils\vice\vice-2005.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:12.57
